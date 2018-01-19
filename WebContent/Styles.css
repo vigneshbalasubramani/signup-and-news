@@ -1,0 +1,102 @@
+body {
+    background-image: url("wallpapers.jpg");
+    background-size: cover;
+	width: 100%;
+}
+
+h1,
+p,
+span {
+    text-align: center;
+    color: #00ffff;
+}
+
+div {
+    width: 35%;
+    background-color: #00141a;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid cyan;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: block;
+    color: cyan;
+    background: #00141a;
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: cyan;
+    color: #00141a;
+}
+
+div:first-of-type {
+    padding: 17px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+h1 {
+    background-color: black;
+}
+
+article {
+	width: 100%;
+	background-color: #00141a;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-left: 20%;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+}
+
+.external-link {
+	width: 20%;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background-color: #00ff99;
+	color: #00141a;
+	margin-left: 20%;
+}
+
+@media screen and (max-width: 400px){
+	section {
+	width: 100%;
+	}
+	
+	article {
+	padding-left: 0px;
+	}
+	
+	.external-link {
+	margin-left: 35%;
+	}
+}
+
+
