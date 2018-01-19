@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("wallpapers.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+	font-family: verdana;
+	text-align: center;
+	font-size: 25px;
+}
+
+section {
+	width: 30%;
+	float: left;
+	margin: 5%;
+	padding: 2%;
+	background-color: #111111;
+	opacity: 0.9;
+}
+
+input[type = "submit"],
+a {
+	background-color: #f1b10e;
+	width: 100%;
+	border: none;
+	font-weight: bold;
+	padding: 7px;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+input[type = "text"],
+input[type = "password"],
+input[type = "email"],
+div {
+	width: 97%;
+	border: none;
+	background-color: #444444;
+	border-radius: 2px;
+	font-size: 15px;
+	padding: 7px;
+	color: white;
+}
+
+label,
+span {
+	color: cyan;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type = "text"]:hover,
+input[type = "email"]:hover,
+input[type = "password"]:hover,
+a:hover {
+	background-color: #777777;
+}
+
+input[type = "submit"]:hover {
+	background-color: #f6d06f;
+}
+
+@media screen and (max-width: 400px){
+	section{
+		width: 90%;
+		margin-left: 5%;
+	}
+}

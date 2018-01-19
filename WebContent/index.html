@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "ISO-8859-1">
+<title>Signup form</title>
+<link rel = "stylesheet" type = "text/css" href = "Styles.css"/>
+</head>
+<body>
+	<h1>SIGNUP FORM</h1>
+	<section><br><br><span>SIGNUP TO GET STARTED WITH OUR SERVICES..</span><br><br>
+	<div>
+	<p>We need your details to enable your login, So that you can go on with your tasks the next time</p>
+	<a href = "/MYFirstServlet/index.html">Refresh page</a><br><br>
+	</div><br>
+	</section>
+	<section>
+	<form method = "post" action = "http://localhost:8080/MYFirstServlet/MyFirstServlet">
+		<label for = "firstname">FirstName :</label><br>
+		<input type = "text" id = "firstname" name = "firstname" title = "alphabets only" pattern = "[a-zA-Z]{1,20}" required placeholder = "UserName"/><br><br>
+		<label for = "lastname">LastName :</label><br>
+		<input type = "text" id = "lastname" name = "lastname" title = "alphabets only" pattern = "[a-zA-Z]{1,20}" required placeholder = "FamilyName"/><br><br>
+		<label for = "password">Password:</label><br>
+		<input type = "password" id = "password" name = "password" pattern = "(.){1,20}" required placeholder = "enter your password here"/><br><br>
+		<label for = "phone">Phone:</label><br>
+		<input type = "text" name = "phone" id = "phone" title = "use numbers(10 digits only)" pattern = "[0-9]{10}" required placeholder = "Eg.8754559941"/><br><br>
+		<label for = "email">Email :</label><br>
+		<input type = "email" name = "email" id = "email" required placeholder = "Eg. abcd@abc.com"/><br><br>
+		<input type = "submit" value = "SUBMIT"/>
+	</form>
+	</section>
+</body>
+</html>
